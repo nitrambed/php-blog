@@ -138,11 +138,25 @@ header {
 /* content */
 
 .content {
+  max-width: 100rem;
+  width: 100%;
   flex: 1;
   display: flex;
-  flex-flow: row;
-  justify-content: center;
+  flex-flow: column;
+  align-self: center;
   align-items: center;
+  padding: 20px 0;
+}
+
+/* block */
+
+.block  {
+  border-radius: 5px;
+  border: var(--border);
+  background-color: white;
+  box-shadow: var(--box-shadow);
+
+
 }
 
 /* footer */
@@ -153,4 +167,15 @@ footer {
   flex-flow: row-reverse;
   color: var(--text-color-light);
   padding: 1.5rem;
+}
+
+
+/* utils */
+
+.p-20 {
+  padding: 20px ;
+}
+
+.p-10 {
+  padding: 10px ;
 }
