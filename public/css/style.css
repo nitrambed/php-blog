@@ -113,7 +113,7 @@ header {
   background-color: var(--primary);
   padding:1.5rem;
   box-shadow: var(--box-shadow);
-  color:var(--text-color-light);
+  color: var(--text-color-light) ;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -128,6 +128,17 @@ header {
   border-radius: 3px;
   padding: 5px 15px;
   transition: background-color 0.2s;
+}
+
+
+.header-menu {
+  margin: 0;
+}
+
+.header-menu li {
+  border-radius: 5px;
+  padding: 5px 15px;
+  transition : background-color 0.2s;
 }
 
 
@@ -161,11 +172,22 @@ footer {
   max-width: 100rem;
   width: 100%;
   flex:1;
+
   display: flex;
   flex-flow: column;
   align-self: center;
   align-items: center;
   padding: 2rem 0;
+}
+
+/* block */
+
+.block  {
+  border-radius: 5px;
+  border: var(--border);
+  background-color: white;
+  box-shadow: var(--box-shadow);
+
 }
 
 /* block */
